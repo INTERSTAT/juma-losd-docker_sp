@@ -4,6 +4,12 @@
 
 This is a docker image and files of the Juma Editor tool and Juma API that has been specialised for use in the LOSD publication platform.
 
+## MySQL database Password
+
+Edit the 'Dockerfile' and change **ROOT_PASSWORD** to your desired passsword.
+
+Edit the '../Juma-losd-docker_sp/juma-uplift-master/src/main/resources/shiro-users.properties' file and change **ROOT_PASSWORD** to your desired passsword (matching that in the DockerFile).
+
 ## Usage
 
 Build Image: ``docker image build -t juma_image .``
