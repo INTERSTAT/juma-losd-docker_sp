@@ -8,7 +8,7 @@ This is a docker image and files of the Juma Editor tool and Juma API that has b
 
 Edit the 'Dockerfile' and change **ROOT_PASSWORD** to your desired passsword.
 
-Edit the '../Juma-losd-docker_sp/juma-uplift-master/src/main/resources/shiro-users.properties' file and change **ROOT_PASSWORD** to your desired passsword (matching that in the DockerFile).
+Edit the '../Juma-losd-docker_sp/juma-uplift-master/src/main/resources/hibernate.cfg.xml' file and change **ROOT_PASSWORD** to your desired passsword (matching that in the DockerFile).
 
 ## Usage
 
